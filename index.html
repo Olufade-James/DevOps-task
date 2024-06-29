@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Inline Static Website</title>
+    <style>
+        /* Inline CSS styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f0f0f0;
+            margin: 20px;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        main {
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        button {
+            padding: 10px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px 0;
+            background-color: #333;
+            color: #fff;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>ADEKUNLE JAMES OLUFADE</h2>
+            <h3>olufadeadekunle14@gmail.com</h3>
+            <h3>Seamus</h3>
+            <a href="http://hng.tech"></a>
+            <p>This is a simple static website example.</p>
+        </section>
+
+        <section>
+            <h2>Interactive Section</h2>
+            <button onclick="document.getElementById('output').innerText = 'Button clicked!';">Click Me!</button>
+            <p id="output"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 ADEKUNLE OLUFADE</p>
+    </footer>
+
+    <script>
+        // Inline JavaScript
+        // You can also place this script at the end of the body tag for best practices
+    </script>
+</body>
+</html>
